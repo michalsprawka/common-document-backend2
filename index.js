@@ -20,7 +20,7 @@ if(!config.get('jwtPrivateKey')) {
     process.exit(1);
 }
 const db_password = config.get("dbPass");
-// mongoose.connect('mongodb://test:12test12@ds237337.mlab.com:37337/com_doc_db',{ keepAlive: true, keepAliveInitialDelay: 300000 })
+
 mongoose.connect(`mongodb://${db_password}@ds237337.mlab.com:37337/com_doc_db`,{ keepAlive: true, keepAliveInitialDelay: 300000 })
      .then(()=>console.log("Connected to mongoDB..."))
     .catch((err)=>console.error("Could not connect to mongodb",err))
