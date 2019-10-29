@@ -20,7 +20,7 @@ if(!config.get('jwtPrivateKey')) {
     process.exit(1);
 }
 
-mongoose.connect('mongodb://test:test1234@ds237337.mlab.com:37337/com_doc_db',{ keepAlive: true, keepAliveInitialDelay: 300000 })
+mongoose.connect('mongodb://test:test12345@ds237337.mlab.com:37337/com_doc_db',{ keepAlive: true, keepAliveInitialDelay: 300000 })
      .then(()=>console.log("Connected to mongoDB..."))
     .catch((err)=>console.error("Could not connect to mongodb",err))
 
