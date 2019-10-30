@@ -76,7 +76,7 @@ node_modules/
 jspm_packages/
 
 # CONFIG DIRECORIES
-config/
+# config/
 
 # TypeScript v1 declaration files
 typings/

@@ -1,0 +1,6 @@
+{
+    "password": "app_password",
+    "jwtPrivateKey": "todo_jwtPrivateKey",
+    "dbPass":"todo_dbPass"
+}
+
